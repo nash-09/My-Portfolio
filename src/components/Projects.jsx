@@ -17,9 +17,9 @@ const Projects = () => {
 
         <p className='text-sky-600 font-bold inline-block mb-3 mt-3'>Links Section:</p> <br />
 
-        <p className='text-sky-600 font-semibold inline-block mb-3'>Live Demo:</p> <a href="" className='text-sky-500 hover:text-sky-700'>View Portfolio</a> <br />
+        <p className='text-sky-600 font-semibold inline-block mb-3'>Live Demo:</p> <a href="https://nash-09.github.io/My-Portfolio/" className='text-sky-500 hover:text-sky-700'>View Portfolio</a> <br />
 
-        <p className='text-sky-600 font-semibold inline-block mb-3'>GitHub Repository:</p> <a href="" className='text-sky-500 hover:text-sky-700'>View Code</a>
+        <p className='text-sky-600 font-semibold inline-block mb-3'>GitHub Repository:</p> <a href="https://github.com/nash-09/My-Portfolio" className='text-sky-500 hover:text-sky-700'>View Code</a>
         <div className='w-full border-2 border-dashed border-sky-700 mt-5 mb-5'></div>
         
 
