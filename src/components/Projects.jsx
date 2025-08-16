@@ -9,7 +9,7 @@ const Projects = () => {
       {/* Project 1 */}
 
       <h3 className='text-xl font-semibold text-slate-700 mt-3 mb-3'>Project 1 - Personal Portfolio Website</h3>
-        <p className='text-sky-600 font-semibold inline-block mb-3'>Tech Stack:</p> React.js | Tailwind CSS | HTML <br />
+        <p className='text-sky-600 font-semibold inline-block mb-3'>Tech Stack:</p> React.JS | Tailwind CSS <br />
 
         <p className='text-sky-600 font-semibold inline-block mb-3'>Summary: </p> A responsive personal portfolio website to showcase my skills, projects, and contact details. <br />
 
