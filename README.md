@@ -96,7 +96,7 @@ Location: Beawar, Rajasthan, India
 
 ## 📸 Screenshot
 
-![Screenshot 1](public\Screenshots\S1.png)
+![Screenshot 1](/public/Screenshots/S1.png)
 
 ![Screenshot 2](public\Screenshots\S2.png)
 
