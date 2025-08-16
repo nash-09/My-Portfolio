@@ -1,12 +1,96 @@
-# React + Vite
+🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built using React.js and Tailwind CSS.
+It showcases my skills, projects, certifications, and provides an easy way to connect with me.
 
-Currently, two official plugins are available:
+🔗 Live Portfolio: nash-09.github.io/My-Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Features
+
+Hero Section – Short intro with call-to-action
+
+About Me – Who I am and what I do
+
+Skills – Technologies I’m learning and working with
+
+Projects – My completed projects with GitHub links
+
+Certificates – Verified achievements with downloadable links
+
+Contact Section – Simple way to reach me
+
+Responsive Design – Works on desktop & mobile
+
+
+
+---
+
+🛠️ Tech Stack
+
+Frontend: React.js, Tailwind CSS
+
+Deployment: GitHub Pages
+
+Tools: Git, npm
+
+---
+
+📜 Certificates
+
+RSCIT Certificate – Vardhman Mahaveer Open University, Kota (2021)
+
+Advanced Basic Computer Certificate – KRS Academy, Beawar (2022)
+
+Salesforce AI Associate Certificate – Salesforce (2025)
+
+
+
+---
+
+⚡ Getting Started
+
+1. Clone this repository:
+
+git clone https://github.com/nash-09/My-Portfolio.git
+
+
+2. Install dependencies:
+
+npm install
+
+
+3. Run locally:
+
+npm run dev
+
+
+4. Build for production:
+
+npm run build
+
+
+5. Deploy to GitHub Pages:
+
+npm run deploy
+
+
+
+
+---
+
+📬 Contact Me
+
+Name: Niranjan Barupal
+
+GitHub: nash-09
+
+Location: Beawar, Rajasthan, India
+
+
+
+---
+
+✨ This portfolio will be updated as I build new projects and earn more certifications.
