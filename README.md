@@ -3,7 +3,7 @@
 This is my personal portfolio website built using React.js and Tailwind CSS.
 It showcases my skills, projects, certifications, and provides an easy way to connect with me.
 
-🔗 Live Portfolio: <a href="nash-09.github.io/My-Portfolio">nash-09.github.io/My-Portfolio</a>
+🔗 Live Portfolio: <a href="https://nash-09.github.io/My-Portfolio/">nash-09.github.io/My-Portfolio</a>
 
 
 ---
