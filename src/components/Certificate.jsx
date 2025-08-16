@@ -23,7 +23,7 @@ const Certificate = () => {
         <p>Certified as a Salesforce AI Associate, validating my understanding of AI fundamentals and Salesforce AI-powered tools.</p>
         <ul className='list-disc p-5 pb-0'>
             <li><p className='text-sky-600 font-semibold inline-block'>Credential ID:</p> <p className='text-sky-500 inline-block'>5875599</p></li>
-            <li><p className='text-sky-600 font-semibold inline-block'>Verification:</p> <a href="/Certificates/SalesforceCertificate.jpg" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Certificate</a></li>
+            <li><p className='text-sky-600 font-semibold inline-block'>Verification:</p> <a href="Certificates/SalesforceCertificate.jpg" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Certificate</a></li>
         </ul>
         <div className='w-full border-2 border-sky-600 mb-5 mt-5'></div>
     </div>
