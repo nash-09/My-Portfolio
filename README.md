@@ -98,13 +98,13 @@ Location: Beawar, Rajasthan, India
 
 ![Screenshot 1](/public/Screenshots/S1.png)
 
-![Screenshot 2](public\Screenshots\S2.png)
+![Screenshot 2](/public/Screenshots/S2.png)
 
-![Screenshot 3](public\Screenshots\S3.png)
+![Screenshot 3](/public/Screenshots/S3.png)
 
-![Screenshot 4](public\Screenshots\S4.png)
+![Screenshot 4](/public/Screenshots/S4.png)
 
-![Screenshot 5](public\Screenshots\S5.png)
+![Screenshot 5](/public/Screenshots/S5.png)
 
 
 ---
