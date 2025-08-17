@@ -101,7 +101,7 @@ const Projects = () => {
 
           <h3 className='text-xl font-semibold text-slate-700 mt-3 mb-3'>Screenshots</h3>
           <div className='h-40 max-w-80 border-2 border-black mb-3'>
-            <img src="Public/Screenshots/Project4/S1.png" className='h-40 w-80 pb-1' alt="" />
+            <img src="/Public/Screenshots/Project4/S1.png" className='h-40 w-80 pb-1' alt="" />
           </div>
           <a href="Public/Screenshots/Project4/S1.png" className='text-sky-500 hover:text-sky-700'>View Full Screenshot</a>
           <div className='w-full border-2 border-sky-600 mb-5 mt-5'></div>
