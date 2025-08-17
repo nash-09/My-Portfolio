@@ -16,7 +16,7 @@ const App = () => {
         <button className='p-1 mr-2 rounded bg-sky-500 text-white hover:bg-sky-600' onClick={() => {
           document.querySelector("#projects").scrollIntoView({behavior : "smooth"})
         }}>View My Work</button>
-        <button className='p-1 rounded bg-sky-500 text-white hover:bg-sky-600' onClick={() => {
+        <button className='p-1 rounded active:scale-50 bg-sky-500 text-white hover:bg-sky-600' onClick={() => {
           document.querySelector("#contactMe").scrollIntoView({behavior : "smooth"})
         }}>Contact Me</button>
       </div>

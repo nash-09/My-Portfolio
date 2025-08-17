@@ -74,6 +74,13 @@ const Projects = () => {
         <p className='text-sky-600 font-semibold mb-3 inline-block'>Live Demo:</p> <a href="https://nash-09.github.io/Rock-Paper-Scissors-Game/" className='text-sky-500 hover:text-sky-700'>Play the game here</a> <br />
 
         <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Rock-Paper-Scissors-Game?tab=readme-ov-file" className='text-sky-500 hover:text-sky-700'>View Code</a>
+
+        <h3 className='text-xl font-semibold text-slate-700 mt-3 mb-3'>Screenshots</h3>
+          <div className='h-40 max-w-80 border-2 border-black mb-3'>
+            <img src="Public/Screenshots/Project3/S1.png" className='h-40 w-80 pb-1' alt="" />
+          </div>
+          <a href="Public/Screenshots/Project3/S1.png" className='text-sky-500 hover:text-sky-700'>View Full Screenshot</a>
+
         <div className='w-full border-2 border-dashed border-sky-700 mt-5 mb-5'></div>
 
         
@@ -91,6 +98,12 @@ const Projects = () => {
           <p className='text-sky-600 font-semibold inline-block mb-3'>Live Demo:</p> <a href="https://nash-09.github.io/Weather-Forecast-App/" className='text-sky-500 hover:text-sky-700'>View Project</a> <br />
 
           <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Weather-Forecast-App" className='text-sky-500 hover:text-sky-700'>View Code</a>
+
+          <h3 className='text-xl font-semibold text-slate-700 mt-3 mb-3'>Screenshots</h3>
+          <div className='h-40 max-w-80 border-2 border-black mb-3'>
+            <img src="Public/Screenshots/Project4/S1.png" className='h-40 w-80 pb-1' alt="" />
+          </div>
+          <a href="Public/Screenshots/Project4/S1.png" className='text-sky-500 hover:text-sky-700'>View Full Screenshot</a>
           <div className='w-full border-2 border-sky-600 mb-5 mt-5'></div>
     </div>
   )
