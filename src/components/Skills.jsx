@@ -1,10 +1,13 @@
 import React from 'react'
+import Lottie from 'lottie-react'
+import heroAnimation from '../assets/animations/hero.json'
 
 const Skills = () => {
   return (
-    <div id='skillsSection'>
-        <h2 className='text-2xl text-slate-700 font-semibold mt-5 mb-3'>Skills</h2>
-        <p className='mb-2'>I work with a mix of core web technologies and modern tools to create responsive and interactive websites.</p>
+    <div id='skillsSection' className='flex'>
+      <div className='rounded-lg bg-gray-800 text-slate-400 m-5 p-5 w-2/4'>
+        <h2 className='text-3xl text-slate-200 font-semibold mb-5'>Skills</h2>
+        <p className='mb-3'>I work with a mix of core web technologies and modern tools to create responsive and interactive websites.</p>
         <p className='font-bold mb-3 text-sky-600'>My current skill set includes:</p>
 
 <ul className='list-disc pl-5'>
@@ -22,7 +25,11 @@ const Skills = () => {
 
 <li><span className='text-sky-600 font-semibold'>Version Control (Git & GitHub) -</span> Managing and sharing code efficiently.</li>
 </ul>
-<div className='w-full border-2 border-sky-600 mb-5 mt-5'></div>
+</div>
+
+<div className='m-5 ml-28 w-96'>
+  <Lottie animationData={heroAnimation} loop={true} />
+</div>
     </div>
   )
 }
