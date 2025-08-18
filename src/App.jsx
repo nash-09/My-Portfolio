@@ -25,7 +25,7 @@ const App = () => {
         }}>Contact Me</button>
       </div>
       <div className='border-4 border-slate-400 ml-5 h-44 w-44 rounded-full transform transition duration-1000 hover:scale-[1.2]'>
-        <img src="../Public/Me/me.jpg" alt="" className='h-full w-full rounded-full'/>
+        <img src="C:\Users\niran\OneDrive\Documents\Desktop\Visual Studio\vite-project\public\Me\me.jpg" alt="" className='h-full w-full rounded-full'/>
       </div>
       </div>
       
