@@ -5,6 +5,8 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Certificate from './components/Certificate'
+import Lottie from 'lottie-react'
+import heroAnimation from './assets/animations/intro.json'
 
 const App = () => {
   return (
@@ -12,8 +14,12 @@ const App = () => {
       document.querySelector("#heroSection").scrollIntoView({behavior:'smooth'})
     }}>TOP</button>
       <div className='flex text-slate-400'>
-      <div className='m-5 rounded-lg p-5 flex w-full justify-center bg-gray-800'>
+      <div className='m-5 rounded-lg p-5 flex w-full justify-evenly bg-gray-800'>
+        <div className='m-5 mt-0 w-60 ml-0 pt-0'>
+          <Lottie animationData={heroAnimation} loop={true} />
+        </div>
       <div id='heroSection'>
+        
         <h1 className=' text-white text-4xl font-bold mb-3'>Hi, I'm Niranjan Barupal</h1>
         <h3 className='text-slate-300 font-semibold text-xl mb-3'>Frontend Web Developer | Crafting Clean & Responsive Websites</h3>
         <p  className='mb-3'>I bring ideas to life with HTML, CSS and JavaScript - building fast, interactive and user-friendly web experiences.</p>
