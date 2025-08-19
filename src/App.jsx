@@ -13,13 +13,12 @@ const App = () => {
     <div><button className='p-2 border-none rounded-lg fixed top-3/4 right-5 active:scale-75 bg-sky-500 text-white hover:bg-sky-600 ' onClick={() => {
       document.querySelector("#heroSection").scrollIntoView({behavior:'smooth'})
     }}>TOP</button>
-      <div className='flex text-slate-400'>
-      <div className='m-5 rounded-lg p-5 flex w-full justify-evenly bg-gray-800'>
-        <div className='m-5 mt-0 w-60 ml-0 pt-0'>
+      <div className='flex justify-between text-slate-400'>
+        <div className='m-auto w-60'>
           <Lottie animationData={heroAnimation} loop={true} />
         </div>
-      <div id='heroSection'>
-        
+      <div className='m-5 mb-10 rounded-lg p-5 flex w-fit bg-gray-800'>        
+      <div id='heroSection'>        
         <h1 className=' text-white text-4xl font-bold mb-3'>Hi, I'm Niranjan Barupal</h1>
         <h3 className='text-slate-300 font-semibold text-xl mb-3'>Frontend Web Developer | Crafting Clean & Responsive Websites</h3>
         <p  className='mb-3'>I bring ideas to life with HTML, CSS and JavaScript - building fast, interactive and user-friendly web experiences.</p>
@@ -33,8 +32,7 @@ const App = () => {
       <div className='border-4 border-slate-400 ml-5 h-44 w-44 rounded-full transform transition duration-1000 hover:scale-[1.2]'>
         <img src="public\Me\me.jpg" alt="" className='h-full w-full rounded-full'/>
       </div>
-      </div>
-      
+      </div>      
       </div>
 
         <AboutMe />
