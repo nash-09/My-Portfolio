@@ -21,10 +21,10 @@ const Projects = () => {
         <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/My-Portfolio" className='text-sky-500 hover:text-sky-700'>View Code</a>
         </div>
         <div className='bg-gray-800 ml-5 h-auto rounded-lg w-1/2 flex flex-wrap  transition transform ease-in-out shadow-gray-950 hover:shadow-none hover:scale-105 shadow-2xl hover:border-2 border-gray-700'>
-          <img src="public/Screenshots/Project1/S1.png" alt="" className='w-1/2 h-1/2 p-2'/>
-          <img src="public/Screenshots/Project1/S2.png" alt="" className='w-1/2 h-1/2 p-2 rounded'/>
-          <img src="public/Screenshots/Project1/S3.png" alt="" className='w-1/2 h-1/2 p-2'/>
-          <img src="public/Screenshots/Project1/S4.png" alt="" className='w-1/2 h-1/2 p-2'/>
+          <img src="./Screenshots/Project1/S1.png" alt="" className='w-1/2 h-1/2 p-2'/>
+          <img src="./Screenshots/Project1/S2.png" alt="" className='w-1/2 h-1/2 p-2 rounded'/>
+          <img src="./Screenshots/Project1/S3.png" alt="" className='w-1/2 h-1/2 p-2'/>
+          <img src="./Screenshots/Project1/S4.png" alt="" className='w-1/2 h-1/2 p-2'/>
       </div> 
     </div>
  
@@ -33,10 +33,10 @@ const Projects = () => {
 
     <div className='flex mt-10'>
       <div className='bg-gray-800 m-5 ml-0 mb-0 h-auto rounded-lg w-1/2 flex flex-wrap  transition transform ease-in-out hover:shadow-none hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700'>
-          <img src="public/Screenshots/Project2/S1.jpg" alt="" className='w-1/2 h-1/2 p-2'/>
-          <img src="public/Screenshots/Project2/S2.jpg" alt="" className='w-1/2 h-1/2 p-2 rounded'/>
-          <img src="public/Screenshots/Project2/S3.jpg" alt="" className='w-1/2 h-1/2 p-2'/>
-          <img src="public/Screenshots/Project2/S4.jpg" alt="" className='w-1/2 h-1/2 p-2'/>
+          <img src="./Screenshots/Project2/S1.jpg" alt="" className='w-1/2 h-1/2 p-2'/>
+          <img src="./Screenshots/Project2/S2.jpg" alt="" className='w-1/2 h-1/2 p-2 rounded'/>
+          <img src="./Screenshots/Project2/S3.jpg" alt="" className='w-1/2 h-1/2 p-2'/>
+          <img src="./Screenshots/Project2/S4.jpg" alt="" className='w-1/2 h-1/2 p-2'/>
       </div> 
       <div className='rounded-lg p-5 bg-gray-800 mt-5 w-1/2  transition transform ease-in-out hover:scale-105 hover:shadow-none shadow-gray-950 shadow-2xl hover:border-2 border-gray-700'>
       <h3 className='text-2xl font-semibold mb-3 text-slate-300'><span className='text-sky-400'>Project 2 -</span> Bike Showroom Website</h3>
@@ -79,7 +79,7 @@ const Projects = () => {
         <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Rock-Paper-Scissors-Game?tab=readme-ov-file" className='text-sky-500 hover:text-sky-700'>View Code</a>
         </div>
         <div className='bg-gray-800 m-5 mr-0 mb-0 w-1/2 h-auto rounded-lg  transition transform ease-in-out hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 hover:shadow-none border-gray-700'>
-          <img src="Public/Screenshots/Project3/S1.jpg" alt="" className='p-2'/>
+          <img src="./Screenshots/Project3/S1.jpg" alt="" className='p-2'/>
         </div>
       </div>
 
@@ -88,7 +88,7 @@ const Projects = () => {
 
       <div className='flex mt-10 '>
         <div className='m-5 w-1/2 bg-gray-800 h-auto rounded-lg ml-0 mb-0  transition transform ease-in-out hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 hover:shadow-none'>
-          <img src="/Screenshots/Project4/S1.jpg" alt="" className='p-2'/>
+          <img src="./Screenshots/Project4/S1.jpg" alt="" className='p-2'/>
         </div>
         <div className='rounded-lg p-5 bg-gray-800 mt-5 w-1/2  transition transform ease-in-out hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 hover:shadow-none'>
         <h3 className='text-2xl font-semibold text-slate-300 mb-3'><span className='text-sky-400'>Project 4 -</span> Weather Forecast App</h3>
