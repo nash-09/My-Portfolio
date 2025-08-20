@@ -10,7 +10,7 @@ import heroAnimation from './assets/animations/intro.json'
 
 const App = () => {
   return (
-    <div><button className='p-2 border-none rounded-lg fixed top-3/4 right-5 active:scale-75 bg-sky-500 text-white hover:bg-sky-600 ' onClick={() => {
+    <div><button className='p-2 border-none rounded-lg fixed top-3/4 right-5 active:scale-75 bg-sky-500 text-white hover:bg-sky-600' onClick={() => {
       document.querySelector("#heroSection").scrollIntoView({behavior:'smooth'})
     }}>TOP</button>
       <div className='flex justify-between text-slate-400'>
@@ -29,8 +29,8 @@ const App = () => {
           document.querySelector("#contactMe").scrollIntoView({behavior : "smooth"})
         }}>Contact Me</button>
       </div>
-      <div className='border-4 border-slate-400 ml-5 h-44 w-44 rounded-full transform transition duration-1000 hover:scale-[1.2]'>
-        <img src="public\Me\me.jpg" alt="" className='h-full w-full rounded-full'/>
+      <div className='shadow-xl shadow-gray-950 ml-5 h-44 w-44 rounded-full transform transition hover:scale-105 hover:border-4 border-gray-700'>
+        <img src=".\Me\me.jpg" alt="" className='h-full w-full rounded-full'/>
       </div>
       </div>      
       </div>

@@ -88,7 +88,7 @@ const Projects = () => {
 
       <div className='flex mt-10 '>
         <div className='m-5 w-1/2 bg-gray-800 h-auto rounded-lg ml-0 mb-0  transition transform ease-in-out hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 hover:shadow-none'>
-          <img src="Public/Screenshots/Project4/S1.jpg" alt="" className='p-2'/>
+          <img src="/Screenshots/Project4/S1.jpg" alt="" className='p-2'/>
         </div>
         <div className='rounded-lg p-5 bg-gray-800 mt-5 w-1/2  transition transform ease-in-out hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 hover:shadow-none'>
         <h3 className='text-2xl font-semibold text-slate-300 mb-3'><span className='text-sky-400'>Project 4 -</span> Weather Forecast App</h3>
