@@ -4,9 +4,9 @@ import heroAnimation from '../assets/animations/hero.json'
 
 const Skills = () => {
   return (
-    <div id='skillsSection' className='flex'>
-      <div className='rounded-lg bg-gray-800 text-slate-400 m-5 p-5 w-2/4'>
-        <h2 className='text-3xl text-slate-200 font-semibold mb-5'>Skills</h2>
+    <div id='skillsSection' className='flex text-sm lg:text-base'>
+      <div className='rounded-lg bg-gray-800 text-slate-400 m-5 p-5 w-full lg:w-2/4'>
+        <h2 className='text-2xl text-slate-200 font-semibold mb-5 text-center lg:text-left lg:text-3xl'>Skills</h2>
         <p className='mb-3'>I work with a mix of core web technologies and modern tools to create responsive and interactive websites.</p>
         <p className='font-bold mb-3 text-sky-600'>My current skill set includes:</p>
 
@@ -27,7 +27,7 @@ const Skills = () => {
 </ul>
 </div>
 
-<div className='m-5 ml-28 w-96'>
+<div className='hidden m-5 ml-28 w-96 lg:block'>
   <Lottie animationData={heroAnimation} loop={true} />
 </div>
     </div>
