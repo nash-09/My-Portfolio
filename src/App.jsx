@@ -10,8 +10,10 @@ import heroAnimation from './assets/animations/intro.json'
 
 const App = () => {
   return (
-    <div className='text-sm lg:text-base'><button className='z-50 p-2 border-none rounded-lg fixed top-3/4 right-5 active:scale-75 bg-sky-500 text-white hover:bg-sky-600 ' onClick={() => {
-      document.querySelector("#heroSection").scrollIntoView({behavior:'smooth'})
+    <div className='text-sm lg:text-base'>
+      <span id='top'></span>
+      <button className='z-50 p-2 border-none rounded-lg fixed top-3/4 right-5 active:scale-75 bg-sky-500 text-white hover:bg-sky-600 ' onClick={() => {
+      document.querySelector("#top").scrollIntoView({behavior:'smooth'})
     }}>TOP</button>
       <div className='flex justify-between text-slate-400'>
         <div className='hidden m-auto w-60 lg:block'>
