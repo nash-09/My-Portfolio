@@ -47,15 +47,15 @@ const App = () => {
             
             {/* Projects Button */}
 
-            <div className='flex'>
-              <motion.div initial={{y:-500}} animate={{y:0}} transition={{delay:3.5}}>
-                <button className='mb-3 p-1 border-none active:scale-75 rounded bg-sky-500 text-white hover:bg-sky-600 lg:w-fit lg:mr-2 inline-block' onClick={() => {document.querySelector("#projects").scrollIntoView({behavior : "smooth"})}}>View My Work</button>
+            <div className='lg:flex'>
+              <motion.div initial={{y:-500}} animate={{y:0}} transition={{delay:3.5}} className='w-full lg:w-fit lg:mr-2 mb-3 lg:mb-0'>
+                <button className='p-1 border-none active:scale-75 rounded bg-sky-500 text-white hover:bg-sky-600 w-full' onClick={() => {document.querySelector("#projects").scrollIntoView({behavior : "smooth"})}}>View My Work</button>
               </motion.div>
 
               {/* Contact Button */}
 
-              <motion.div initial={{y:-500}} animate={{y:0}} transition={{delay:4}}>
-                <button className=' p-1 rounded border-none bg-sky-500 text-white hover:bg-sky-600 lg:w-fit active:scale-75' onClick={() => {document.querySelector("#contactMe").scrollIntoView({behavior : "smooth"})}}>Contact Me</button>
+              <motion.div initial={{y:-500}} animate={{y:0}} transition={{delay:4}} className='w-full lg:w-fit'>
+                <button className='p-1 rounded border-none bg-sky-500 text-white hover:bg-sky-600 active:scale-75 w-full' onClick={() => {document.querySelector("#contactMe").scrollIntoView({behavior : "smooth"})}}>Contact Me</button>
               </motion.div>
             </div>
           </div>
