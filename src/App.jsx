@@ -17,7 +17,7 @@ const App = () => {
 
       <span id='top'></span>
       <motion.div initial={{x: -1500, zIndex:50}} animate={{x:0}} transition={{delay:4.5}} className='fixed top-3/4 right-5'>
-        <button className=' p-2 border-none rounded-lg  active:scale-75 bg-sky-500 text-white hover:bg-sky-600 ' onClick={() => {document.querySelector("#top").scrollIntoView({behavior:'smooth'})}}>TOP</button>
+        <button className='animate-bounce p-2 border-none rounded-lg  active:scale-75 bg-sky-500 text-white hover:bg-sky-600 ' onClick={() => {document.querySelector("#top").scrollIntoView({behavior:'smooth'})}}>TOP</button>
       </motion.div>
 
       {/* Header */}
