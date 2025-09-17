@@ -17,8 +17,8 @@ const Projects = () => {
           <p className='text-sky-600 font-semibold inline-block'>Summary: </p> A responsive personal portfolio website to showcase my skills, projects, and contact details. <br />
           <p className='text-sky-600 font-semibold inline-block mt-3'>Description: </p> Designed and developed a clean, modern personal portfolio to highlight my frontend development skills. Built using React.js and Tailwind CSS for fast performance and a fully responsive design. Features smooth scrolling, call-to-action buttons, and well-structured project showcases. <br />
           <p className='text-slate-300 text-xl lg:text-2xl font-semibold inline-block mb-3 mt-5'>Links Section</p> <br />
-          <p className='text-sky-600 font-semibold inline-block mb-3'>Live Demo:</p> <a href="https://nash-09.github.io/My-Portfolio/" className='text-sky-500 hover:text-sky-700'>View Portfolio</a> <br />
-          <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/My-Portfolio" className='text-sky-500 hover:text-sky-700'>View Code</a>
+          <p className='text-sky-600 font-semibold inline-block mb-3'>Live Demo:</p> <a href="https://nash-09.github.io/My-Portfolio/" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Portfolio</a> <br />
+          <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/My-Portfolio" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Code</a>
         </div>
         <div className=' bg-gray-800 mt-5 lg:mt-0 lg:ml-5 h-auto rounded-lg w-full lg:w-1/2 flex flex-wrap  transition transform ease-in-out shadow-gray-950 hover:shadow-none hover:scale-105 shadow-2xl hover:border-2 border-gray-700'>
           <img src="./Screenshots/Project1/S1.png" alt="" className='w-1/2 h-1/2 p-2'/>
@@ -53,8 +53,8 @@ const Projects = () => {
           </ul>
           <p className='font-semibold text-xl lg:text-2xl text-slate-300 mt-5 mb-3'>Links Section</p>
           <ul>
-            <li><p className='text-sky-600 font-semibold inline-block mb-3'>Live Demo:</p> <a href="https://nash-09.github.io/Bike-Showroom-Website/" className='text-sky-500 hover:text-sky-700'>View Project</a></li>
-            <li><p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Bike-Showroom-Website" className='text-sky-500 hover:text-sky-700'>View Code</a> </li>
+            <li><p className='text-sky-600 font-semibold inline-block mb-3'>Live Demo:</p> <a href="https://nash-09.github.io/Bike-Showroom-Website/" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Project</a></li>
+            <li><p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Bike-Showroom-Website" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Code</a> </li>
           </ul>
         </div>       
       </div>
@@ -75,8 +75,8 @@ const Projects = () => {
             <li><p className='text-sky-600 font-semibold inline-block'>Fully responsive design:</p> Works smoothly across mobile and desktop screens.</li>
           </ul>
             <p className='text-slate-300 text-xl lg:text-2xl font-semibold mt-5 mb-3'>Links Section</p>
-            <p className='text-sky-600 font-semibold mb-3 inline-block'>Live Demo:</p> <a href="https://nash-09.github.io/Rock-Paper-Scissors-Game/" className='text-sky-500 hover:text-sky-700'>Play the game here</a> <br />
-            <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Rock-Paper-Scissors-Game?tab=readme-ov-file" className='text-sky-500 hover:text-sky-700'>View Code</a>
+            <p className='text-sky-600 font-semibold mb-3 inline-block'>Live Demo:</p> <a href="https://nash-09.github.io/Rock-Paper-Scissors-Game/" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>Play the game here</a> <br />
+            <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Rock-Paper-Scissors-Game?tab=readme-ov-file" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Code</a>
         </div>
           <div className='bg-gray-800 m-5 ml-0 lg:ml-5 mb-0 w-full lg:w-1/2 h-auto rounded-lg  transition transform ease-in-out hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 hover:shadow-none border-gray-700'>
             <img src="./Screenshots/Project3/S1.jpg" alt="" className='p-2'/>
@@ -96,8 +96,8 @@ const Projects = () => {
             <p className='text-sky-600 font-semibold inline-block mt-3'>Summary:</p> A responsive weather application that fetches real-time weather data from the OpenWeatherMap API, with a clean and intuitive interface. <br />
             <p className='text-sky-600 font-semibold inline-block mt-3'>Description:</p> A sleek and responsive weather app that allows users to search any city and instantly get live weather information. It uses the OpenWeatherMap API to display current temperature, humidity, weather conditions, and date/time. The design is mobile-friendly and updates dynamically whenever a new location is searched, providing an accurate and smooth user experience. <br />
             <p className='text-slate-300 font-semibold inline-block mt-5 text-xl lg:text-2xl mb-3'>Links Section</p> <br />
-            <p className='text-sky-600 font-semibold inline-block mb-3'>Live Demo:</p> <a href="https://nash-09.github.io/Weather-Forecast-App/" className='text-sky-500 hover:text-sky-700'>View Project</a> <br />
-            <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Weather-Forecast-App" className='text-sky-500 hover:text-sky-700'>View Code</a>
+            <p className='text-sky-600 font-semibold inline-block mb-3'>Live Demo:</p> <a href="https://nash-09.github.io/Weather-Forecast-App/" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Project</a> <br />
+            <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Weather-Forecast-App" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Code</a>
         </div>
       </div>
     </div>
