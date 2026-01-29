@@ -10,12 +10,11 @@ const Projects = () => {
 
       {/* Project 1 */}
 
-      <div className='flex flex-col-reverse mt-10 lg:flex-row'>
+      <div className='flex flex-col-reverse mt-5 lg:flex-row'>
         <div className='bg-gray-800 m-5 ml-0 mb-0 h-auto rounded-lg w-full lg:w-1/2 flex flex-wrap  transition transform ease-in-out hover:shadow-none hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700'>
-          <img src="./Screenshots/Project2/S1.jpg" alt="" className='w-1/2 h-1/2 p-2'/>
-          <img src="./Screenshots/Project2/S2.jpg" alt="" className='w-1/2 h-1/2 p-2 rounded'/>
-          <img src="./Screenshots/Project2/S3.jpg" alt="" className='w-1/2 h-1/2 p-2'/>
-          <img src="./Screenshots/Project2/S4.jpg" alt="" className='w-1/2 h-1/2 p-2'/>
+          <img src="./Screenshots/Project5/1.png" alt="" className='w-1/2 h-1/2 p-2'/>
+          <img src="./Screenshots/Project5/2.png" alt="" className='w-1/2 h-1/2 p-2 rounded'/>
+          <img src="./Screenshots/Project5/3.png" alt="" className='w-full h-1/2 p-2'/>
         </div> 
         <div className='rounded-lg p-5 bg-gray-800 mt-5 w-full lg:w-1/2  transition transform ease-in-out hover:scale-105 hover:shadow-none shadow-gray-950 shadow-2xl hover:border-2 border-gray-700'>
           <h3 className='text-xl lg:text-2xl text-center lg:text-left font-semibold mb-5 text-slate-300'><span className='text-sky-400'>Project 1 -</span> Employee Task Management System</h3>
@@ -29,20 +28,27 @@ const Projects = () => {
             <li>Persistent Data Storage with LocalStorage</li>
             <li>Real-time Task Count Updates</li>
             <li>Separate Dashboards for Admin & Employees</li>
+            <li>Task Lifecycle Management</li>
+            <ul className='list-[circle] pl-5'>
+              <li>New Task</li>
+              <li>Accepted Task</li>
+              <li>Completed Task</li>
+              <li>Failed Task</li>
+            </ul>
             <li>Fully Responsive UI using Tailwind CSS</li>
             <li>Fast Performance powered by Vite</li>
           </ul>
           <p className='font-semibold text-xl lg:text-2xl text-slate-300 mt-5 mb-3'>Links Section</p>
           <ul>
-            <li><p className='text-sky-600 font-semibold inline-block mb-3'>Live Demo:</p> <a href="https://nash-09.github.io/Bike-Showroom-Website/" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Project</a></li>
-            <li><p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Bike-Showroom-Website" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Code</a> </li>
+            <li><p className='text-sky-600 font-semibold inline-block mb-3'>Live Demo:</p> <a href="https://nash-09.github.io/Task-Manager/" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Project</a></li>
+            <li><p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Task-Manager" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Code</a> </li>
           </ul>
         </div>       
       </div>
 
       {/* Project 2 */}
 
-      <div className='flex flex-col lg:flex-row mt-5'>
+      <div className='flex flex-col lg:flex-row mt-10'>
         <div className='shadow-gray-950 rounded-lg p-5 w-full lg:w-1/2 bg-gray-800 transition transform ease-in-out hover:scale-105 shadow-2xl hover:shadow-none hover:border-2 border-gray-700'>
           <h3 className='text-xl lg:text-2xl font-semibold text-slate-300 mb-5 text-center lg:text-left'><span className='text-sky-400'>Project 2 -</span> Personal Portfolio Website</h3>
           <p className='text-sky-600 font-semibold inline-block mb-3'>Tech Stack:</p> React.JS | Tailwind CSS <br />

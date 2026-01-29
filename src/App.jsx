@@ -39,26 +39,26 @@ const App = () => {
 
         <motion.div  className='flex flex-col-reverse lg:flex-row lg:text-left ml-5 lg:ml-0 items-center bg-gray-800 w-fit p-5 rounded-lg'>
           <div id='heroSection'>        
-            <h1 animate={{scale:[1]}} className=' text-white text-3xl font-bold mb-3 lg:text-4xl'>Hi, I'm <motion.span animate={{opacity:[0,1]}} transition={{delay:2, duration:3}}>Niranjan Barupal</motion.span> aka
-              <motion.span initial={{y:-500}} animate={{y:0}} transition={{delay:2.5}} style={{display:'inline-block'}} className='ml-2'>N</motion.span>
-              <motion.span initial={{y:-500}} animate={{y:0}} transition={{delay:2.7}} style={{display:'inline-block'}}>a</motion.span>
-              <motion.span initial={{y:-500}} animate={{y:0}} transition={{delay:2.9}} style={{display:'inline-block'}}>s</motion.span>
-              <motion.span initial={{y:-500}} animate={{y:0}} transition={{delay:3.1}} style={{display:'inline-block'}}>h</motion.span>
+            <h1 animate={{scale:[1]}} className=' text-white text-3xl font-bold mb-3 lg:text-4xl'>Hi, I'm
+              <motion.span initial={{y:-500}} animate={{y:0}} transition={{delay:2.5}} style={{display:'inline-block'}} className='ml-2'>Niran</motion.span>
+              <motion.span initial={{y:-500}} animate={{y:0}} transition={{delay:2.7}} style={{display:'inline-block'}}>jan</motion.span>
+              <motion.span initial={{y:-500}} animate={{y:0}} transition={{delay:2.9}} style={{display:'inline-block'}} className='ml-2'>Baru</motion.span>
+              <motion.span initial={{y:-500}} animate={{y:0}} transition={{delay:3.1}} style={{display:'inline-block'}}>pal</motion.span>
             </h1>
-            <h3 className='text-slate-300 font-semibold text-lg mb-3 lg:text-xl'>Frontend Web Developer | Crafting Clean & Responsive Websites</h3>
-            <p className='mb-3 text-sm lg:text-base'>I bring ideas to life with HTML, CSS and JavaScript - building fast, interactive and user-friendly web experiences.</p>
+            <h3 className='text-slate-300 font-semibold text-lg mb-3 lg:text-xl'>Frontend Web Developer <br /> Turning ideas into pixel-perfect, responsive web interfaces.</h3>
+            <p className='mb-3 text-sm lg:text-base'>I build fast, responsive and user-friendly web interfaces using React, Tailwind CSS and JavaScript, <br /> with a strong focus on performance and usability.</p>
             
             {/* Projects Button */}
 
             <div className='lg:flex'>
               <motion.div initial={{y:-500}} animate={{y:0}} transition={{delay:3.5}} className='w-full lg:w-fit lg:mr-2 mb-3 lg:mb-0'>
-                <button className='p-1 border-none active:scale-75 rounded bg-sky-500 text-white hover:bg-sky-600 w-full' onClick={() => {document.querySelector("#projects").scrollIntoView({behavior : "smooth"})}}>View My Work</button>
+                <button className='p-1 border-none active:scale-75 rounded bg-sky-500 text-white hover:bg-sky-600 w-full' onClick={() => {document.querySelector("#projects").scrollIntoView({behavior : "smooth"})}}>View My Projects</button>
               </motion.div>
 
               {/* Contact Button */}
 
               <motion.div initial={{y:-500}} animate={{y:0}} transition={{delay:4}} className='w-full lg:w-fit'>
-                <button className='p-1 rounded border-none bg-sky-500 text-white hover:bg-sky-600 active:scale-75 w-full' onClick={() => {document.querySelector("#contactMe").scrollIntoView({behavior : "smooth"})}}>Contact Me</button>
+                <button className='p-1 rounded border-none bg-sky-500 text-white hover:bg-sky-600 active:scale-75 w-full' onClick={() => {document.querySelector("#contactMe").scrollIntoView({behavior : "smooth"})}}>Get in Touch</button>
               </motion.div>
             </div>
           </div>
