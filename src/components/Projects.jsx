@@ -10,14 +10,14 @@ const Projects = () => {
 
       {/* Project 1 */}
 
-      <div className='flex flex-col-reverse mt-5 lg:flex-row'>
-        <div className='bg-gray-800 m-5 ml-0 mb-0 h-auto rounded-lg w-full lg:w-1/2 flex flex-wrap  transition transform ease-in-out hover:shadow-none hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700'>
+      <div className='flex flex-col-reverse mt-5 lg:flex-row h-[500px]'>
+        <div className='bg-gray-800 m-5 ml-0 mb-0 rounded-lg w-full lg:w-1/2 flex flex-wrap hover:shadow-none shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 h-[150px] lg:h-full'>
           <img src="./Screenshots/Project5/1.png" alt="" className='w-1/2 h-1/2 p-2'/>
           <img src="./Screenshots/Project5/2.png" alt="" className='w-1/2 h-1/2 p-2 rounded'/>
           <img src="./Screenshots/Project5/3.png" alt="" className='w-full h-1/2 p-2'/>
         </div> 
-        <div className='rounded-lg p-5 bg-gray-800 mt-5 w-full lg:w-1/2  transition transform ease-in-out hover:scale-105 hover:shadow-none shadow-gray-950 shadow-2xl hover:border-2 border-gray-700'>
-          <h3 className='text-xl lg:text-2xl text-center lg:text-left font-semibold mb-5 text-slate-300'><span className='text-sky-400'>Project 1 -</span> Employee Task Management System</h3>
+        <div id='scroll' className='h-[350px] lg:h-full rounded-lg p-5 bg-gray-800 mt-5 w-full lg:w-1/2 hover:shadow-none shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 overflow-auto'>
+          <h3 className='text-xl lg:text-2xl text-center lg:text-left font-semibold mb-5 text-slate-300'><span className='text-sky-400'>Project 1 -</span> Employee Task Management System</h3><div ></div>
           <p className='text-sky-600 font-semibold inline-block'>Tech Stack :</p> React.Vite | Context API | LocalStorage | Tailwind CSS <br />
           <p className='text-sky-600 font-semibold inline-block mt-3'>Summary: </p> A role-based employee task management system that allows admins to assign tasks and employees to manage their work efficiently. The application supports real-time task status updates with persistent data storage using the browser's LocalStorage. <br />
           <p className='text-sky-600 font-semibold inline-block mt-3'>Description : </p> Designed and developed a modern task management web application to simulate a real-world admin-employee workflow. The project focuses on state management, data persistence and clean UI design. <br/> Admins can create and assign tasks to employees, while employees can accept tasks, mark them as completed or mark them as failed. All task updates are reflected instantly across dashboards and are stored persistently using LocalStorage. <br/> Built using React Context API to manage global state and Tailwind CSS for a responsive and clean user interface.
@@ -48,8 +48,8 @@ const Projects = () => {
 
       {/* Project 2 */}
 
-      <div className='flex flex-col lg:flex-row mt-10'>
-        <div className='shadow-gray-950 rounded-lg p-5 w-full lg:w-1/2 bg-gray-800 transition transform ease-in-out hover:scale-105 shadow-2xl hover:shadow-none hover:border-2 border-gray-700'>
+      <div className='flex flex-col lg:flex-row mt-10 h-[500px]'>
+        <div id='scroll' className='h-[350px] lg:h-full shadow-gray-950 rounded-lg p-5 w-full lg:w-1/2 bg-gray-800 shadow-2xl hover:shadow-none hover:border-2 border-gray-700 overflow-auto'>
           <h3 className='text-xl lg:text-2xl font-semibold text-slate-300 mb-5 text-center lg:text-left'><span className='text-sky-400'>Project 2 -</span> Personal Portfolio Website</h3>
           <p className='text-sky-600 font-semibold inline-block mb-3'>Tech Stack:</p> React.JS | Tailwind CSS <br />
           <p className='text-sky-600 font-semibold inline-block'>Summary: </p> A responsive personal portfolio website to showcase my skills, projects, and contact details. <br />
@@ -58,7 +58,7 @@ const Projects = () => {
           <p className='text-sky-600 font-semibold inline-block mb-3'>Live Demo:</p> <a href="https://nash-09.github.io/My-Portfolio/" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Portfolio</a> <br />
           <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/My-Portfolio" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Code</a>
         </div>
-        <div className=' bg-gray-800 mt-5 lg:mt-0 lg:ml-5 h-auto rounded-lg w-full lg:w-1/2 flex flex-wrap  transition transform ease-in-out shadow-gray-950 hover:shadow-none hover:scale-105 shadow-2xl hover:border-2 border-gray-700'>
+        <div className='h-[150px] lg:h-full bg-gray-800 mt-5 lg:mt-0 lg:ml-5 rounded-lg w-full lg:w-1/2 flex flex-wrap shadow-gray-950 hover:shadow-none shadow-2xl hover:border-2 border-gray-700'>
           <img src="./Screenshots/Project1/S1.png" alt="" className='w-1/2 h-1/2 p-2'/>
           <img src="./Screenshots/Project1/S2.png" alt="" className='w-1/2 h-1/2 p-2 rounded'/>
           <img src="./Screenshots/Project1/S3.png" alt="" className='w-1/2 h-1/2 p-2'/>
@@ -69,14 +69,14 @@ const Projects = () => {
 
       {/* Project 3 */}
 
-      <div className='flex flex-col-reverse mt-10 lg:flex-row'>
-        <div className='bg-gray-800 m-5 ml-0 mb-0 h-auto rounded-lg w-full lg:w-1/2 flex flex-wrap  transition transform ease-in-out hover:shadow-none hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700'>
+      <div className='flex flex-col-reverse mt-10 lg:flex-row h-[500px]'>
+        <div className='h-[150px] lg:h-full bg-gray-800 m-5 ml-0 mb-0 rounded-lg w-full lg:w-1/2 flex flex-wrap hover:shadow-none shadow-gray-950 shadow-2xl hover:border-2 border-gray-700'>
           <img src="./Screenshots/Project2/S1.jpg" alt="" className='w-1/2 h-1/2 p-2'/>
           <img src="./Screenshots/Project2/S2.jpg" alt="" className='w-1/2 h-1/2 p-2 rounded'/>
           <img src="./Screenshots/Project2/S3.jpg" alt="" className='w-1/2 h-1/2 p-2'/>
           <img src="./Screenshots/Project2/S4.jpg" alt="" className='w-1/2 h-1/2 p-2'/>
         </div> 
-        <div className='rounded-lg p-5 bg-gray-800 mt-5 w-full lg:w-1/2  transition transform ease-in-out hover:scale-105 hover:shadow-none shadow-gray-950 shadow-2xl hover:border-2 border-gray-700'>
+        <div id='scroll' className='h-[350px] lg:h-full rounded-lg p-5 bg-gray-800 mt-5 w-full lg:w-1/2 hover:shadow-none shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 overflow-auto'>
           <h3 className='text-xl lg:text-2xl text-center lg:text-left font-semibold mb-5 text-slate-300'><span className='text-sky-400'>Project 3 -</span> Bike Showroom Website</h3>
           <p className='text-sky-600 font-semibold inline-block'>Tech Stack :</p> HTML5 | CSS3 | JavaScript <br />
           <p className='text-sky-600 font-semibold inline-block mt-3'>Summary: </p> A responsive and interactive multi-brand bike showroom website featuring brand pages, EMI calculator, login system, and a contact form. Built with HTML, CSS, and JavaScript to deliver a smooth browsing experience. <br />
@@ -99,8 +99,8 @@ const Projects = () => {
 
       {/* project 4 */}
 
-      <div className='flex mt-10 flex-col lg:flex-row'>
-        <div className='rounded-lg p-5 bg-gray-800 mt-5 w-full lg:w-1/2  transition transform ease-in-out hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 hover:shadow-none'>
+      <div className='flex mt-10 flex-col lg:flex-row h-[500px]'>
+        <div id='scroll' className='h-[350px] lg:h-full overflow-auto rounded-lg p-5 bg-gray-800 mt-5 w-full lg:w-1/2 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 hover:shadow-none'>
           <h3 className='text-xl lg:text-2xl text-center lg:text-left font-semibold text-slate-300 mb-5'><span className='text-sky-400'>Project 4 -</span> Rock-Paper-Scissors Game</h3>
           <p className='text-sky-600 inline-block font-semibold'>Tech Stack:</p> HTML5 | CSS3 | JavaScript (ES6+) <br />
           <p className='text-sky-600 inline-block font-semibold  mt-3'>Summary: </p> A responsive and interactive Rock-Paper-Scissors game featuring score tracking, visual feedback animations, and intuitive gameplay. <br />
@@ -116,7 +116,7 @@ const Projects = () => {
             <p className='text-sky-600 font-semibold mb-3 inline-block'>Live Demo:</p> <a href="https://nash-09.github.io/Rock-Paper-Scissors-Game/" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>Play the game here</a> <br />
             <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Rock-Paper-Scissors-Game?tab=readme-ov-file" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Code</a>
         </div>
-          <div className='bg-gray-800 m-5 ml-0 lg:ml-5 mb-0 w-full lg:w-1/2 h-auto rounded-lg  transition transform ease-in-out hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 hover:shadow-none border-gray-700'>
+          <div className='h-[150px] h-full bg-gray-800 m-5 ml-0 lg:ml-5 mb-0 w-full lg:w-1/2 rounded-lg shadow-gray-950 shadow-2xl hover:border-2 hover:shadow-none border-gray-700'>
             <img src="./Screenshots/Project3/S1.jpg" alt="" className='p-2'/>
           </div>
       </div>
@@ -124,11 +124,11 @@ const Projects = () => {
         
         {/* Project 5 */}
 
-      <div className='flex mt-5 flex-col-reverse lg:mt-10 lg:flex-row'>
-        <div className='m-5 mb-0 w-full lg:w-1/2 bg-gray-800 h-auto rounded-lg ml-0  transition transform ease-in-out hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 hover:shadow-none'>
+      <div  className='flex mt-5 flex-col-reverse lg:mt-10 lg:flex-row h-[500px]'>
+        <div className='h-[150px] lg:h-full m-5 mb-0 w-full lg:w-1/2 bg-gray-800 rounded-lg ml-0 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 hover:shadow-none'>
           <img src="./Screenshots/Project4/S1.jpg" alt="" className='p-2'/>
         </div>
-        <div className='rounded-lg p-5 bg-gray-800 mt-5 w-full lg:w-1/2  transition transform ease-in-out hover:scale-105 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 hover:shadow-none'>
+        <div id='scroll' className='h-[350px] lg:h-full overflow-auto rounded-lg p-5 bg-gray-800 mt-5 w-full lg:w-1/2 shadow-gray-950 shadow-2xl hover:border-2 border-gray-700 hover:shadow-none'>
           <h3 className='text-xl lg:text-2xl font-semibold text-slate-300 text-center lg:text-left mb-5'><span className='text-sky-400'>Project 5 -</span> Weather Forecast App</h3>
             <p className='text-sky-600 font-semibold inline-block'>Tech Stack:</p> HTML | CSS | JavaScript | OpenWeatherMap API <br />
             <p className='text-sky-600 font-semibold inline-block mt-3'>Summary:</p> A responsive weather application that fetches real-time weather data from the OpenWeatherMap API, with a clean and intuitive interface. <br />
