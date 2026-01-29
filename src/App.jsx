@@ -51,13 +51,13 @@ const App = () => {
             {/* Projects Button */}
 
             <div className='lg:flex'>
-              <motion.div initial={{y:-500}} animate={{y:0}} transition={{delay:3.5}} className='w-full lg:w-fit lg:mr-2 mb-3 lg:mb-0'>
+              <motion.div initial={{y:-1000}} animate={{y:0}} transition={{delay:3.5}} className='w-full lg:w-fit lg:mr-2 mb-3 lg:mb-0'>
                 <button className='p-1 border-none active:scale-75 rounded bg-sky-500 text-white hover:bg-sky-600 w-full' onClick={() => {document.querySelector("#projects").scrollIntoView({behavior : "smooth"})}}>View My Projects</button>
               </motion.div>
 
               {/* Contact Button */}
 
-              <motion.div initial={{y:-500}} animate={{y:0}} transition={{delay:4}} className='w-full lg:w-fit'>
+              <motion.div initial={{y:1000}} animate={{y:0}} transition={{delay:4}} className='w-full lg:w-fit'>
                 <button className='p-1 rounded border-none bg-sky-500 text-white hover:bg-sky-600 active:scale-75 w-full' onClick={() => {document.querySelector("#contactMe").scrollIntoView({behavior : "smooth"})}}>Get in Touch</button>
               </motion.div>
             </div>
