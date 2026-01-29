@@ -30,7 +30,7 @@ const App = () => {
 
 
         <div className='flex items-center justify-center'>
-          <motion.div animate={{opacity:[0,1]}} transition={{delay:0.5, duration:2}} className='w-80 ml-14 hidden lg:block'>
+          <motion.div animate={{opacity:[0,1]}} transition={{delay:0.5, duration:2}} className='w-96 ml-14 hidden lg:block'>
             <Lottie animationData={heroAnimation} loop={true} />
           </motion.div>
         </div>
