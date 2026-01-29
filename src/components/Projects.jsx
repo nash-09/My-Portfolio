@@ -116,7 +116,7 @@ const Projects = () => {
             <p className='text-sky-600 font-semibold mb-3 inline-block'>Live Demo:</p> <a href="https://nash-09.github.io/Rock-Paper-Scissors-Game/" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>Play the game here</a> <br />
             <p className='text-sky-600 font-semibold inline-block'>GitHub Repository:</p> <a href="https://github.com/nash-09/Rock-Paper-Scissors-Game?tab=readme-ov-file" target='_blank' rel='noopener noreferrer' className='text-sky-500 hover:text-sky-700'>View Code</a>
         </div>
-          <div className='h-[150px] h-full bg-gray-800 m-5 ml-0 lg:ml-5 mb-0 w-full lg:w-1/2 rounded-lg shadow-gray-950 shadow-2xl hover:border-2 hover:shadow-none border-gray-700'>
+          <div className='h-[150px] lg:h-full bg-gray-800 m-5 ml-0 lg:ml-5 mb-0 w-full lg:w-1/2 rounded-lg shadow-gray-950 shadow-2xl hover:border-2 hover:shadow-none border-gray-700'>
             <img src="./Screenshots/Project3/S1.jpg" alt="" className='p-2'/>
           </div>
       </div>
